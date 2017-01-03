@@ -1,0 +1,23 @@
+2017/01/03 13:47:53 [alert] 1033#0: lua_code_cache is off; this will hurt performance in yanm/conf/nginx.conf:10
+2017/01/03 13:47:53 [emerg] 1033#0: unexpected "}" in yanm/conf/nginx.conf:19
+2017/01/03 13:49:03 [emerg] 1061#0: unexpected "}" in yanm/conf/nginx.conf:16
+2017/01/03 14:00:34 [error] 1299#0: *1 failed to load external Lua file "yanm/lua/test/po.lua": cannot open yanm/lua/test/po.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/test/po?a=2&b=90 HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/03 14:04:28 [error] 1409#0: *3 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/03 14:04:28 [error] 1409#0: *3 open() "yanm/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:6699", referrer: "http://127.0.0.1:6699/search/error.html"
+2017/01/03 14:04:37 [error] 1409#0: *3 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/03 14:04:45 [error] 1409#0: *3 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/03 14:05:00 [error] 1409#0: *3 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/03 14:07:08 [error] 1409#0: *13 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "localhost:6699"
+2017/01/03 14:07:08 [error] 1409#0: *13 open() "yanm/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/search/error.html"
+2017/01/03 14:07:10 [error] 1409#0: *13 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "localhost:6699"
+2017/01/03 14:08:16 [error] 1409#0: *13 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "localhost:6699"
+2017/01/03 14:08:18 [error] 1409#0: *13 "yanm/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:6699"
+2017/01/03 14:08:29 [error] 1409#0: *13 open() "yanm/html/search/error.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /search/error.html HTTP/1.1", host: "localhost:6699"
+2017/01/03 14:09:40 [emerg] 1686#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:13:18 [emerg] 1783#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:13:32 [emerg] 1792#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:13:39 [emerg] 1802#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:13:41 [emerg] 1809#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:13:52 [emerg] 1823#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:14:09 [emerg] 1840#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in yanm/conf/nginx.conf:18
+2017/01/03 14:14:34 [error] 1855#0: *1 "yanm/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:6699"
